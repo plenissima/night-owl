@@ -1,0 +1,33 @@
+Título:	Divergência entre a quantidade de cursos disponíveis da matéria de Direito Civil
+
+Prioridade: Média
+Ciclo: n/a
+Responsável: nightOwl
+Correção na: dd/mm/aaaa
+
+Tipo de bug: Frontend, Dados
+
+Comportamento Atual: Dados divergêntes entre os dados do filtro de matéria e da página de descrição
+	Ao pesquisar pela matéria de Direito Civil em Cursos por matéria
+	A quantidade de cursos disponível é de 517 cursos
+	Ao entrar em detalhes ou acessa a página de descrição da matéria
+	A quantidade de cursos disponível é de 540 cursos
+
+Comportamento Esperado: Quantidade de cursos disponível da matéria seja o mesmo valor em diversas páginas
+	Ao pesquisar pela matéria de Direito Civil em Cursos por matéria
+	A quantidade de cursos do resultado da pesquisa
+	E a quantidade de cursos da página de descrição da matéria
+	Seja iguais, 517 ou 540.
+
+Ambiente: Produção
+
+Passos para reprodução:
+	Home Estratégia > CURSOS ONLINE PARA CONCURSOS: Por matéria
+	Filtrar > Direito Cívil > 517 cursos disponíveis
+	Detalhes > 540 cursos disponíveis 
+
+Evidências:
+	ticket-bug-01-evidencia-01.png
+	ticket-bug-01-evidencia-02.png
+	
+Autor: Gabriel Pinheiro

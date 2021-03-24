@@ -1,0 +1,29 @@
+Título:	Botão "Todos os professores" desativado, tela Cursos por professor
+
+Prioridade: Média
+Ciclo: n/a
+Responsável: nightOwl
+Correção na: dd/mm/aaaa
+
+Tipo de bug: Frontend
+
+Comportamento Atual: Botão "Todos os professores" desativado
+	Ao pesquisar um professor no filtro
+	E clicar no botão laranja "Todos os professores"
+	Nenhuma ação ocorre, o elemento está disabled no HTML
+
+Comportamento Esperado: Botão "Todos os professores" ativado
+	Ao pesquisar um professor no filtro
+	E clicar no botão laranja "Todos os professores"
+	A listagem deve mostrar todos os professores
+
+Ambiente: Produção
+
+Passos para reprodução:
+	Home Estratégia > CURSOS ONLINE PARA CONCURSOS: Por matéria
+	Filtrar > Ena Loiola > Todos os professores 
+
+Evidências:
+	ticket-bug-02-evidencia-01.png
+	
+Autor: Gabriel Pinheiro

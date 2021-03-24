@@ -1,0 +1,25 @@
+{
+    "name": "night-owl",
+    "version": "1.0.0",
+    "description": "Web Automation with codeceptjs, webdriverio and selenium-standalone",
+    "main": "codecept.conf.js",
+    "scripts": {
+        "features": "codeceptjs run --steps --verbose",
+        "codeceptjs": "codeceptjs run --steps",
+        "codeceptjs:headless": "HEADLESS=true codeceptjs run --steps",
+        "codeceptjs:ui": "codecept-ui --app",
+        "codeceptjs:demo": "codeceptjs run --steps -c node_modules/@codeceptjs/examples/codecept.webdriver.conf.js",
+        "codeceptjs:demo:headless": "HEADLESS=true codeceptjs run --steps -c node_modules/@codeceptjs/examples/codecept.webdriver.conf.js",
+        "codeceptjs:demo:ui": "codecept-ui --app  -c node_modules/@codeceptjs/examples/codecept.webdriver.conf.js"
+    },
+    "author": "Gabriel Pinheiro",
+    "license": "ISC",
+    "devDependencies": {
+        "@codeceptjs/configure": "^0.6.2",
+        "@codeceptjs/examples": "^1.2.1",
+        "@codeceptjs/ui": "^0.4.3",
+        "@wdio/selenium-standalone-service": "^7.2.1",
+        "codeceptjs": "^3.0.5",
+        "webdriverio": "^6.12.1"
+    }
+}

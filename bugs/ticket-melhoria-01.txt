@@ -1,0 +1,27 @@
+Título:	Links duplicados, possível mudança de um elemento <a> para <label>
+
+Prioridade: Baixa
+Ciclo: n/a
+Responsável: nightOwl
+Correção na: dd/mm/aaaa
+
+Tipo de bug: Frontend
+
+Comportamento Atual: Os elementos CURSOS ONLINE PARA CONCURSOS: e Por concurso tem o mesmo href
+	<a href="https://www.estrategiaconcursos.com.br/cursos/concurso/">CURSOS ONLINE PARA CONCURSOS:</a>
+	<a href="https://www.estrategiaconcursos.com.br/cursos/concurso/">Por concurso</a>
+
+Comportamento Esperado: Apenas o elemento "Por concurso" ter o link da tela de concursos
+	<label>CURSOS ONLINE PARA CONCURSOS:</label>
+	<a href="https://www.estrategiaconcursos.com.br/cursos/concurso/">Por concurso</a>
+
+Ambiente: Produção
+
+Passos para reprodução:
+	Home Estratégia > CURSOS ONLINE PARA CONCURSOS:
+	Home Estratégia > CURSOS ONLINE PARA CONCURSOS: Por concurso
+
+Evidências:
+	ticket-melhoria-01-evidencia-01.png
+	
+Autor: Gabriel Pinheiro

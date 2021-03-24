@@ -1,0 +1,26 @@
+Título:	# Breve explicação do Bug
+
+Prioridade: # Alta/Média/Baixa
+Ciclo: # sprint ou n/a
+Responsável: # nome-da-equipe ou desenvolvedor
+Correção na: # dd/mm/aaaa ou sprint
+
+Tipo de bug: # Frontend/Backend/Dados/Código/API
+
+Comportamento Atual: # Titulo simplificado do comportamento atual
+	# Parágrafo de descrição do comportamento
+	# Ações que resultam no bug
+
+Comportamento Esperado: # Título simplificado do comportamento esperado
+	# Parágrafo de descrição do comportamento
+	# Ações que esperadas
+
+Ambiente: # Produção/Homologação/Desenvolvimento
+
+Passos para reprodução:
+	# Início > Ação 2 > Ação ... > Bug
+
+Evidências:
+	# arquivo
+	
+Autor: # Nome do Autor
