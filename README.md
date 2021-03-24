@@ -75,7 +75,7 @@ Scenario | Tag
 To run them individually, just change the scenario tag:
 
 ```
-    npx codeceptjs run --grep "@scenario_tagged"
+    npx codeceptjs run --grep "@scenario_tagged" --verbose
 ```
 
 
